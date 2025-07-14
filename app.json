@@ -1,0 +1,78 @@
+{
+  "name": "NOBITAxWAIFU",
+  "description": "A Telegram bot built with python-telegram-bot and pyrogram, using MongoDB for data storage.",
+  "repository": "https://github.com/nobitamusic01/NOBITAxWAIFU",
+  "keywords": ["python", "telegram-bot", "pyrogram", "mongodb"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID for the bot",
+      "value": "28269355",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash for the bot",
+      "value": "805b8c6577a8c30db439d901af544cac",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Telegram Bot Token",
+      "value": "",
+      "required": true
+    },
+    "GLOG": {
+      "description": "Username or ID of the log channel",
+      "value": "NobitaGrabberBot001",
+      "required": true
+    },
+    "CHARA_CHANNEL_ID": {
+      "description": "Username or ID of the character channel",
+      "value": "NobitaGrabberBot01",
+      "required": true
+    },
+    "SUPPORT_CHAT_ID": {
+      "description": "ID of the support chat",
+      "value": "-1002506225416",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection URL",
+      "value": "mongodb+srv://iamnobita1:nobitamusic1@cluster0.k08op.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "required": true
+    },
+    "PHOTO_URL_1": {
+      "description": "First photo URL for the bot",
+      "value": "https://files.catbox.moe/7ccoub.jpg",
+      "required": false
+    },
+    "PHOTO_URL_2": {
+      "description": "Second photo URL for the bot",
+      "value": "https://files.catbox.moe/7ccoub.jpg",
+      "required": false
+    },
+    "SUPPORT_CHAT": {
+      "description": "Support chat URL",
+      "value": "https://t.me/+WLTHgUAvkYVmNTg9",
+      "required": true
+    },
+    "UPDATE_CHAT": {
+      "description": "Update chat URL",
+      "value": "https://t.me/NOBITA_MUSIC_SUPPORT",
+      "required": true
+    },
+    "SUDO": {
+      "description": "Comma-separated list of sudo user IDs",
+      "value": "5536473064,5909658683",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Owner's Telegram user ID",
+      "value": "5536473064",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
