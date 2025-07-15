@@ -1,4 +1,4 @@
-from pyrogram import app, filters
+from pyrogram import Client, filters
 from pyrogram.types import Message
 from NOBITA import app as Client, user_collection, require_power
 
