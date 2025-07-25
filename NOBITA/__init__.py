@@ -33,7 +33,7 @@ CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "NobitaGrabberBot01")
 SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002506225416")
 mongo_url = os.getenv("MONGO_URL", "mongodb+srv://iamnobita1:nobitamusic1@cluster0.k08op.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-MUSJ_JOIN = os.getenv("MUSJ_JOIN", "NOBITA_MUSIC_SUPPORT")
+MUSJ_JOIN = os.getenv("MUSJ_JOIN", "NOB1TA_SUPPORT")
 
 # Modified to support both image and video URLs
 START_MEDIA = os.getenv("START_MEDIA", "https://files.catbox.moe/7ccoub.jpg,https://telegra.ph/file/1a3c152717eb9d2e94dc2.mp4").split(',')
@@ -46,7 +46,7 @@ PHOTO_URL = [
 STATS_IMG = ["https://files.catbox.moe/gknnju.jpg"] 
 
 SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/+WLTHgUAvkYVmNTg9")
-UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/NOBITA_MUSIC_SUPPORT")
+UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/NOB1TA_SUPPORT")
 SUDO = list(map(int, os.getenv("SUDO", "5536473064,5909658683").split(',')))
 OWNER_ID = int(os.getenv("OWNER_ID", "5536473064"))
 
