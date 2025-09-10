@@ -11,7 +11,7 @@
 
 ## WAIFU & HUSBANDO CATCHER
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/iamnobita09/NOBITA_WAIFU)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/iamnobita206243/NOBITA_TOXICWAIFU)
 
 <p align="center">
   <a href="https://t.me/+wPjAlUcObehiZDM1">
