@@ -25,13 +25,13 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 # ---------------------------- CONSTANTS ---------------------------------
-api_id = os.getenv("API_ID", "28269355")
-api_hash = os.getenv("API_HASH", "805b8c6577a8c30db439d901af544cac")
-TOKEN = os.getenv("TOKEN", "7556031866:AAEpGQrXoHn7ycTISZrpLJK28UmaESLxAzM")
-GLOG = os.getenv("GLOG", "NobitaGrabberBot001")
-CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "NobitaGrabberBot01")
-SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002506225416")
-mongo_url = os.getenv("MONGO_URL", "mongodb+srv://iamnobita1:nobitamusic1@cluster0.k08op.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+api_id = os.getenv("API_ID", "24066587")
+api_hash = os.getenv("API_HASH", "313665b3d8085a06e9d8141789b2fafb")
+TOKEN = os.getenv("TOKEN", "8096420325:AAFMRLS7iGogHk-fCZ4NJzeUxEvSIaQUr6k")
+GLOG = os.getenv("GLOG", "TOXICWAIFULOG")
+CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "toxic_database")
+SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002523513707")
+mongo_url = os.getenv("MONGO_URL", "mongodb+srv://iamnobita09:iamnobita09@cluster0.odtamaz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 MUSJ_JOIN = os.getenv("MUSJ_JOIN", "NOB1TA_SUPPORT")
 
@@ -45,10 +45,10 @@ PHOTO_URL = [
 
 STATS_IMG = ["https://files.catbox.moe/gknnju.jpg"] 
 
-SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/+WLTHgUAvkYVmNTg9")
-UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/NOB1TA_SUPPORT")
-SUDO = list(map(int, os.getenv("SUDO", "5536473064,5909658683").split(',')))
-OWNER_ID = int(os.getenv("OWNER_ID", "5536473064"))
+SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/TOXIC_X_SOCIETY")
+UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/POETRY_BY_TOXIC")
+SUDO = list(map(int, os.getenv("SUDO", "5536473064,6872041688").split(',')))
+OWNER_ID = int(os.getenv("OWNER_ID", "6872041688"))
 
 # --------------------- TELEGRAM BOT CONFIGURATION -----------------------
 command_filter = f.create(lambda _, __, message: message.text and message.text.startswith("/"))
