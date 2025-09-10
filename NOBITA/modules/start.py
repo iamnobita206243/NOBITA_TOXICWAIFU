@@ -51,7 +51,7 @@ async def generate_start_message(client, message):
         [InlineKeyboardButton("❍ Sᴜᴘᴘᴏʀᴛ ❍ ", url=SUPPORT_CHAT), 
          InlineKeyboardButton("❍ Cʜᴀɴɴᴇʟ ❍ ", url=UPDATE_CHAT)],
         [InlineKeyboardButton("❍ Hᴇʟᴘ ❍  ", callback_data="open_help")],
-        [InlineKeyboardButton("❍ Oᴡɴᴇʀ ❍ ", url="https://t.me/ll_NOBITA_DEFAULTERS_ll")]  # GitHub button added here
+        [InlineKeyboardButton("❍ Oᴡɴᴇʀ ❍ ", url="https://t.me/TOXIC_HU_BHAI")]  # GitHub button added here
     ]
     
     return caption, InlineKeyboardMarkup(buttons)
@@ -116,3 +116,4 @@ async def back_to_home(client, query: CallbackQuery):
     time.sleep(1) 
     caption, buttons = await generate_start_message(client, query.message)
     await query.message.edit_text(caption, reply_markup=buttons)
+
